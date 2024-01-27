@@ -1,22 +1,19 @@
-import React from 'react';
+// import React from 'react';
+import Header from './components/Header';
 import './App.css';
-import { Container, Navbar, NavbarBrand } from 'reactstrap';
-import NucampLogo from './app/assets/img/logo.png';
+// import { Container, Navbar, NavbarBrand } from 'reactstrap';
+// import NucampLogo from './app/assets/img/logo.png';
 // import CampsiteCard from './features/campsites/CampsiteCard.js';
 import CampsitesList from './features/campsites/CampsitesList.js';
 // import { CAMPSITES } from './app/shared/CAMPSITES';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Navbar dark color='primary' sticky='top' expand='md'>
-        <Container>
-          <NavbarBrand href='/'>
-            <img src={NucampLogo} alt='nucamp logo' />
-          </NavbarBrand>
-        </Container>
-      </Navbar>
+      <Header/>
       <CampsitesList/>
+      <Footer/>
     </div>
   );
 }
