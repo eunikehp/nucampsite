@@ -1,7 +1,7 @@
 import {Card, CardImg, CardImgOverlay, CardTitle} from 'reactstrap';
 
 //const Campsite Card = (props) => {
-const CampsiteCard = {{ campsite }} => {
+const CampsiteCard = ({ campsite }) => {
   //const { campsite } = props;
   const { image, name } = campsite; // destructuring assignment
   return (
