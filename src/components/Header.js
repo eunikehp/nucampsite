@@ -12,7 +12,7 @@ import {
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false); //React Hooks
 
   return (
     <Navbar dark color='primary' sticky='top' expand='md'>
