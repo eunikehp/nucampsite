@@ -6,7 +6,12 @@ export const selectAllCampsites = () => {
   return CAMPSITES;
 };
 
-export const selectRandomCampsite = () => {
-  return CAMPSITES[Math.floor(Math.random() * CAMPSITES.length)];
+export const selectCampsiteById = (id) => {
+  return CAMPSITES.find((campsite) => campsite.id === id); //bikin supaya bisa klik gambar dan munculin gambar detail.
+}
 
-};
+// export const selectRandomCampsite = () => {
+//   return CAMPSITES[Math.floor(Math.random() * CAMPSITES.length)];
+
+// };
+
