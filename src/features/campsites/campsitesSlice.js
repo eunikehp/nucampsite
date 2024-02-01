@@ -7,7 +7,7 @@ export const selectAllCampsites = () => {
 };
 
 export const selectCampsiteById = (id) => {
-  return CAMPSITES.find((campsite) => campsite.id === id); //bikin supaya bisa klik gambar dan munculin gambar detail.
+  return CAMPSITES.find((campsite) => campsite.id === parseInt(id)); //bikin supaya bisa klik gambar dan munculin gambar detail.
 };
 
 // export const selectRandomCampsite = () => {
