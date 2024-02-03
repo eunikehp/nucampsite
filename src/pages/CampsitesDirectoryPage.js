@@ -5,6 +5,7 @@ import { Container} from 'reactstrap';
 import CampsitesList from '../features/campsites/CampsitesList';
 // import { selectRandomCampsite} from  '../features/campsites/campsitesSlice';
 // import { selectCampsiteById } from '../features/campsites/campsitesSlice';
+import SubHeader from '../components/subHeader';
 
 const CampsitesDirectoryPage = () => {
   // const [campsiteId, setCampsiteId] = useState(0); //Hook
@@ -20,7 +21,8 @@ const CampsitesDirectoryPage = () => {
 
   return (
     <Container>  
-          <CampsitesList />
+      <SubHeader current='Directory' />
+      <CampsitesList />
     </Container>
   );
 };
