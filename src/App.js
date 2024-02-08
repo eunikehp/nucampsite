@@ -7,12 +7,6 @@ import CampsiteDetailPage from './pages/CampsiteDetailPage';
 import Footer from './components/Footer';
 import './App.css';
 import AboutPage from './pages/AboutPage';
-// import React from 'react';
-// import { Container, Navbar, NavbarBrand } from 'reactstrap';
-// import NucampLogo from './app/assets/img/logo.png';
-// import CampsiteCard from './features/campsites/CampsiteCard.js';
-// import CampsitesList from './features/campsites/CampsitesList.js';
-// import { CAMPSITES } from './app/shared/CAMPSITES';
 
 
 function App() {
