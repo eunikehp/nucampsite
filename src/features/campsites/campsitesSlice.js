@@ -4,7 +4,6 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { baseUrl } from '../../app/shared/baseUrl';
 import { mapImageUrl } from '../../utils/mapImageURL';
 
-
 export const fetchCampsites = createAsyncThunk(
   'campsites/fetchCampsites',
   async () => {
